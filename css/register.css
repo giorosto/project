@@ -1,0 +1,96 @@
+body {
+    background-image: url("../img/GomisMta.jpg");
+
+}
+label {
+    font-size:2.5rem;
+    /*color: rgba(1, 37, 1, 0.3) ;*/
+  
+    
+}
+
+  input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+
+}
+.custom-button{
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: black;
+}
+.custom-button:hover{
+  background-color: #f44336; 
+  color: white;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+.login-form{
+  
+  margin:220px auto;
+  width:50%;
+  border-radius: 5px;
+  background-color: #c5c5c24f;
+  padding: 20px;
+}
+.button{
+  display:flex;
+  justify-content:space-between;
+  padding: 16px 32px;
+  font-family: 'Montserrat', sans-serif;
+
+ 
+}
+.button a button{
+  border-radius:5px;
+  border: none;
+  width: 150px;
+  height: 50px;
+
+}
+.button a button:hover{
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1121px){
+  .login-form{
+    width: 563px;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .login-form{
+    width: 300px;
+  }
+  .button{
+    flex-direction: column;
+  }
+  .row{
+    display: flex;
+    flex-direction: column !important;
+  }
+}
